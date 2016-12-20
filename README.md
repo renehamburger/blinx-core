@@ -1,2 +1,3 @@
 # blinx-core
-A cross-platform Bible reference parser
+
+The core module of a cross-platform rewrite of [blinx](https://github.com/renehamburger/blinx) in Haxe.
