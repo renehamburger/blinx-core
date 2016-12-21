@@ -1,5 +1,0 @@
--js js-debug/blinx.js
--main Blinx
--D js-flatten
--dce full
--debug

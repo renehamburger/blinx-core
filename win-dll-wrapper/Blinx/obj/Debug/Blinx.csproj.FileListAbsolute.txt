@@ -1,6 +1,0 @@
-D:\Documents\Misc\Programming\haxe\blinx\win-dll-wrapper\Blinx\Blinx\bin\Debug\Blinx.dll
-D:\Documents\Misc\Programming\haxe\blinx\win-dll-wrapper\Blinx\Blinx\bin\Debug\Blinx.pdb
-D:\Documents\Misc\Programming\haxe\blinx\win-dll-wrapper\Blinx\Blinx\bin\Debug\cs-dll.dll
-D:\Documents\Misc\Programming\haxe\blinx\win-dll-wrapper\Blinx\Blinx\obj\Debug\Blinx.csprojResolveAssemblyReference.cache
-D:\Documents\Misc\Programming\haxe\blinx\win-dll-wrapper\Blinx\Blinx\obj\Debug\Blinx.dll
-D:\Documents\Misc\Programming\haxe\blinx\win-dll-wrapper\Blinx\Blinx\obj\Debug\Blinx.pdb

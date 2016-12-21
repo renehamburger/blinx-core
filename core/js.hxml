@@ -1,0 +1,7 @@
+-cp src
+-js js.build/blinx.js
+-main Blinx
+-D js-flatten
+-dce full
+-lib haxelow
+-debug
