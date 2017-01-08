@@ -9,7 +9,7 @@ class Blinx {
   public static function main() {
     // Get a collection of a class
 //    var persons = db.col(Person);
-    //parser = new Parser('en');
+   //parser = new Parser('en');
     trace('Blinx loaded successfully (Version: ${getVersion()})');
   }
 

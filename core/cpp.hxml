@@ -2,5 +2,8 @@
 -cpp cpp.build
 -main Blinx
 -D static_link
+# -D HXCPP_DEBUGGER
 -lib haxelow
+# -lib hxcpp-debugger
+# -debug
 #-dce no

@@ -5,7 +5,7 @@
             "name": "C++ Launch (Windows)",
             "type": "cppvsdbg",
             "request": "launch",
-            "program": "./cpp-dll/output/blinx-com-dll.exe",
+            "program": "${workspaceRoot}/cpp-dll/output/blinx-com-dll.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceRoot}",
@@ -17,6 +17,21 @@
             "type": "cppvsdbg",
             "request": "attach",
             "processId": "${command.pickProcess}"
-        }
+        },
+		{
+            "name": "Haxe: Debug",
+            "type": "hxcpp",
+            "request": "launch",
+            "program": "${workspaceRoot}/cpp-dll/output/blinx-com-dll.exe",
+            "args": [
+				"runPath=${workspaceRoot}/cpp-dll/output/",
+				"runCommand=blinx-com-dll.exe",
+				"runInTerminal=false"				
+			],
+            "stopAtEntry": true,
+            "cwd": "${workspaceRoot}",
+            "environment": [],
+            "externalConsole": false
+		}
     ]
 }

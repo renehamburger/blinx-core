@@ -37,6 +37,9 @@
 #include "Blinx.h"
 #include "blinx-cpp-dll.h"
 
+// #if debug
+//   new debugger.HaxeRemote(true, "localhost");
+// #endif
 
 //--- Entry point & initialisation
 

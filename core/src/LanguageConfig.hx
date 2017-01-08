@@ -16,9 +16,13 @@ class LanguageConfig {
 
 	public function getAllBookLabels(): Array<String> {
 		var result: Array<String> = [];
-		for (book in this.books) {
-			result.concat(book.labels);
-		};
+/*		for (book in this.books) {
+			trace("book:" + book);
+			trace("book.id:" + book.id);
+			//TODO: Acessing book.labels causes a segmentation error
+			trace("book.labels:" + book.labels);
+			result = result.concat(book.labels);
+		};*/
 		return result;
 	}
 
