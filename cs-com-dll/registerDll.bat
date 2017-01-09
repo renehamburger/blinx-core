@@ -1,3 +1,0 @@
-@echo off
-c:\Windows\Microsoft.NET\Framework64\v4.0.30319\RegAsm.exe /codebase "D:\Documents\Misc\Programming\haxe\blinx-core\win-dll-wrapper\Blinx\bin\Debug\Blinx.dll" /tlb:"D:\Documents\Misc\Programming\haxe\blinx-core\win-dll-wrapper\Blinx\bin\Debug\Blinx.tlb"
-set /p DUMMY=Hit ENTER to continue...

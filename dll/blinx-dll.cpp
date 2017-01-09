@@ -35,7 +35,7 @@
 #include <cstdio>
 #include <Windows.h>
 #include "Blinx.h"
-#include "blinx-cpp-dll.h"
+#include "blinx-dll.h"
 
 // #if debug
 //   new debugger.HaxeRemote(true, "localhost");

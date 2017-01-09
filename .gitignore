@@ -1,6 +1,3 @@
 *.build
-/cpp-dll/output
-/cs-com-dll/Blinx/bin
-/cs-com-dll/Blinx/obj
-/cs-com-dll/.vs
+/dll/output/*
 ~$*.docm
