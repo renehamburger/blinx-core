@@ -6,11 +6,7 @@
   #define BLINX_API __declspec(dllimport)   
 #endif  
 
-namespace BlinxDll
-{  
-  class Core
-  {  
-    public:
-      static BLINX_API int getVersion();
-  };  
-}  
+extern "C"
+{
+  BLINX_API int getVersion();
+}

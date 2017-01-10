@@ -8,12 +8,13 @@ rem /I: add include paths
 rem /D: add compiler #define
 rem /LD: output as dll
 rem --------------------------
-call "%VS140COMNTOOLS%..\..\VC\vcvarsall.bat" x86
+call "%VS140COMNTOOLS%..\..\VC\vcvarsall.bat" x64
 set commonCompilerflags=/Od /Zi /Fo.\output\ /Fd.\output\ /Fa.\output\
-set staticCompilerFlags=/EHsc /I ..\core\cpp.build\include /I "%HXCPP%\include" /D HX_WINDOWS /D BLINX_EXPORTS /LD
+set staticCompilerFlags=/EHsc /I ..\core\cpp.build\include /I "%HXCPP%\include" /D HX_WINDOWS /D BLINX_EXPORTS /D HXCPP_M64 /LD
 set staticRequiredlibs="%HXCPP%\lib\Windows\*-19.lib" user32.lib
 cd dll
-del output\* /q
+rmdir output /rq
+mkdir output
 cl %commonCompilerflags% %staticCompilerFlags% blinx-dll.cpp "..\core\cpp.build\libBlinx.lib" %staticRequiredlibs% /link /OUT:output/blinx-dll.dll
 move blinx-dll.exp output/
 move blinx-dll.lib output/

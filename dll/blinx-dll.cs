@@ -18,16 +18,16 @@ namespace BlinxComDll
     }
 
     [Guid("00000000-0000-0000-B000-000000000002")]
+    [ComVisible(true)]
     [ClassInterface(ClassInterfaceType.None)]
     public class Core: IBlinxCore
     {
-        //private Blinx blinx = new Blinx();
-
-        [ComVisible(true)]
         public int getVersion()  {
-            return 11;
-            //return BlinxDll::Core::getVersion();
+            return _getVersion();
         }
+
+        [DllImport("blinx-dll.dll", EntryPoint = "getVersion", CallingConvention = CallingConvention.Cdecl)]
+        public static extern int _getVersion();
 
         protected object GetAutomationObject()
         {

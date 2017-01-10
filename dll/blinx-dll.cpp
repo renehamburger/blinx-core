@@ -43,7 +43,8 @@
 
 //--- Entry point & initialisation
 
-extern "C" {
+extern "C"
+{
   const char *hxRunLibrary();
   void hxcpp_set_top_of_stack();
 }
@@ -72,9 +73,9 @@ BOOL WINAPI DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpReserved)
 
 //--- DLL API
 
-namespace BlinxDll  
+extern "C"
 {
-    int Core::getVersion()
+    int getVersion()
     {
       return Blinx_obj::getVersion();
     } 
